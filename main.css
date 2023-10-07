@@ -58,3 +58,51 @@ body{
 .intro-span{
     color: violet;
 }
+
+
+@media only screen and (max-width: 1200px) {
+    .text-container{
+        width: 70%;
+    }
+
+    .img-container{
+        width: 30%;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+    .container{
+        flex-direction: column-reverse;
+        height: 80vh;
+    }
+
+    .text-container{
+        width: 100%;
+        padding: 20px;
+    }
+    .img-container{
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .container{
+        flex-direction: column-reverse;
+        height: 90vh;
+    }
+
+    .text-container{
+        width: 100%;
+        padding: 20px;
+        height: 70%;
+
+    }
+    .img-container{
+        width: 100%;
+        height: 30%;
+    }
+}
